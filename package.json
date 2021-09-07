@@ -1,0 +1,35 @@
+{
+   "name": "rnts-server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "watch": "tsc -w",
+      "start": "ts-node src/index.ts",
+      "start2": "ts-node src/index.ts",
+      "dev": "nodemon dist/index.js",
+      "dev2": "nodemon --exec ts-node src/index.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "apollo-server": "^3.3.0",
+      "apollo-server-express": "^3.3.0",
+      "express": "^4.17.1",
+      "graphql": "^15.5.3",
+      "mysql": "^2.14.1",
+      "mysql2": "^2.3.0",
+      "reflect-metadata": "^0.1.10",
+      "type-graphql": "^1.1.1",
+      "typeorm": "0.2.37"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.12",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
